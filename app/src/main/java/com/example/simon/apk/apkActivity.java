@@ -45,7 +45,9 @@ public class apkActivity extends AppCompatActivity {
         Log.d("intTestAmount","" + amount);
         Log.d("intTestAlcohol","" + alcohol);
 
+
         APKresult = ((alcohol * 0.01) * (amount * 10))/price;
+
 
         Log.d("intTestAPK","" + APKresult + " ml/kr");
 
