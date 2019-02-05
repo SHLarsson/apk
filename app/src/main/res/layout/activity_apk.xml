@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/display_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input_price"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Price"
+
+        android:inputType = "number"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/input_amount"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:hint="Amount"
+
+        android:inputType = "number"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/input_alcohol"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Alcohol"
+
+        android:inputType = "number"
+
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="calculate"
+        android:onClick="changeView"
+        />
+
+
+</RelativeLayout>
