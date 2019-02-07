@@ -11,6 +11,7 @@ import android.widget.TextView;
 public class apkActivity extends AppCompatActivity {
 
     public static final String  EXTRA_MESSAGE = "com.example.apk.MESSAGE";
+    public static final String  ALCOHOL_SORT = "com.example.apk.SORT";
 
     public int price = 0;
     public int amount = 0;
@@ -18,16 +19,20 @@ public class apkActivity extends AppCompatActivity {
 
     public double APKresult;
 
+    public String sort;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apk);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        sort = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+
+
 
         TextView displayMessageView = findViewById(R.id.display_sort);
-        displayMessageView.setText("Sort: " + message);
+        displayMessageView.setText("Sort: " + sort);
     }
     void changeView(View view){
         Intent intent = new Intent(this, ResultActivity.class);
@@ -54,6 +59,7 @@ public class apkActivity extends AppCompatActivity {
         String message = APKresult + "";
 
         intent.putExtra(EXTRA_MESSAGE , message);
+        intent.putExtra(ALCOHOL_SORT , sort);
 
         startActivity(intent);
     }

@@ -14,4 +14,23 @@
         android:layout_marginTop="148dp"
         android:text="APK"
         android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/saveBtn"
+        android:layout_marginEnd="87dp"
+        android:text="Done" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginStart="95dp"
+        android:text="Save" />
 </RelativeLayout>

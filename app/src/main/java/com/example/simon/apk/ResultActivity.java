@@ -14,6 +14,7 @@ public class ResultActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        //String sort = intent.getStringExtra(MainActivity.ALCOHOL_SORT);
 
         TextView displayMessageView = findViewById(R.id.display_result);
         displayMessageView.setText(message + " ml/kr");
