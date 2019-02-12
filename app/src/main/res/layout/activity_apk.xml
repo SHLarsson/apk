@@ -22,7 +22,7 @@
 
         android:hint="Price"
 
-        android:inputType = "number"
+        android:inputType = "numberDecimal"
 
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -37,7 +37,7 @@
 
         android:hint="Amount"
 
-        android:inputType = "number"
+        android:inputType = "numberDecimal"
 
         android:layout_centerHorizontal="true"
         android:layout_marginTop="183dp"
@@ -50,7 +50,7 @@
 
         android:hint="Alcohol"
 
-        android:inputType = "number"
+        android:inputType = "numberDecimal"
 
         android:layout_centerInParent="true"
         android:gravity="center" />
@@ -65,6 +65,31 @@
         android:text="calculate"
         android:onClick="changeView"
         />
+
+    <TextView
+        android:id="@+id/alcohol_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="80dp"
+        android:text="%" />
+
+    <TextView
+        android:id="@+id/amount_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_amount"
+        android:layout_alignStart="@+id/alcohol_type"
+        android:text="cl" />
+
+    <TextView
+        android:id="@+id/price_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_price"
+        android:layout_alignStart="@+id/alcohol_type"
+        android:text="kr" />
 
 
 </RelativeLayout>
