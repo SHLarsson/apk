@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">apk</string>
 
-    <string name="sorts">Sorter</string>
+    <string name="sorts">Sorts</string>
 
     <string-array name="alkohol_array">
-        <item>Sprit</item>
-        <item>Öl</item>
+        <item>Spirits</item>
+        <item>Beer</item>
         <item>Cider</item>
-        <item>Vin</item>
-        <item>Likör</item>
+        <item>Wine</item>
+        <item>Liqueur</item>
         <item>Drink</item>
     </string-array>
 

@@ -23,8 +23,6 @@ public class ResultActivity extends AppCompatActivity {
         TextView displayResult = findViewById(R.id.display_result);
         displayResult.setText(message + " ml/kr");
 
-
-
     }
     void done(View view){
         Intent intent = new Intent(this, MainActivity.class);
