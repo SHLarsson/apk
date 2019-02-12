@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="187dp"
         android:text="APK"
         android:textSize="30sp" />
 
@@ -22,7 +22,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/saveBtn"
         android:layout_marginEnd="87dp"
-        android:text="Done" />
+        android:text="Done"
+        android:onClick="done"
+        />
 
     <Button
         android:id="@+id/saveBtn"
@@ -33,4 +35,14 @@
         android:layout_marginBottom="65dp"
         android:layout_marginStart="95dp"
         android:text="Save" />
+
+    <TextView
+        android:id="@+id/display_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:text="sort" />
+
 </RelativeLayout>

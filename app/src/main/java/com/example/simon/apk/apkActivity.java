@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class apkActivity extends AppCompatActivity {
 
-    public static final String  EXTRA_MESSAGE = "com.example.apk.MESSAGE";
+    public static final String  APK_RESULT = "com.example.apk.RESULT";
     public static final String  ALCOHOL_SORT = "com.example.apk.SORT";
 
     public int price = 0;
@@ -58,7 +58,7 @@ public class apkActivity extends AppCompatActivity {
 
         String message = APKresult + "";
 
-        intent.putExtra(EXTRA_MESSAGE , message);
+        intent.putExtra(APK_RESULT , message);
         intent.putExtra(ALCOHOL_SORT , sort);
 
         startActivity(intent);
