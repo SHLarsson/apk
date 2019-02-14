@@ -32,7 +32,7 @@ public class apkActivity extends AppCompatActivity {
 
 
         TextView displayMessageView = findViewById(R.id.display_sort);
-        displayMessageView.setText("Sort: " + sort);
+        displayMessageView.setText(R.string.selected_sort + " " + sort);
     }
     void changeView(View view){
         Intent intent = new Intent(this, ResultActivity.class);

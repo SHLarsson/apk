@@ -1,15 +1,18 @@
 <resources>
     <string name="app_name">apk</string>
 
-    <string name="sorts">Sorts</string>
+    <string name="sorts">Alcohol sorts</string>
 
     <string-array name="alkohol_array">
-        <item>Spirits</item>
+        <item>Spirit</item>
         <item>Beer</item>
         <item>Cider</item>
         <item>Wine</item>
         <item>Liqueur</item>
         <item>Drink</item>
     </string-array>
+
+    <string name="next_button_text">Next</string>
+    <string name="selected_sort">Sort</string>
 
 </resources>

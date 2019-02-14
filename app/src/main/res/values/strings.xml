@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">apk</string>
 
-    <string name="sorts">Sorter</string>
+    <string name="sorts">Alkohol sorter</string>
 
     <string-array name="alkohol_array">
         <item>Sprit</item>
@@ -11,5 +11,9 @@
         <item>Likör</item>
         <item>Drink</item>
     </string-array>
+
+    <string name="next_button_text">Nästa</string>
+    <string name="selected_sort">Sort</string>
+
 
 </resources>
