@@ -9,5 +9,11 @@ public class SavedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved);
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerview);
+        final WordListAdapter adapter = new WordListAdapter(this);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
     }
 }

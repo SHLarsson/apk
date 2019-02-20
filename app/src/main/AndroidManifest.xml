@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".apkActivity" />
         <activity android:name=".ResultActivity" />
-        <activity android:name=".SavedActivity"></activity>
+        <activity android:name=".SavedActivity" />
+        <activity android:name=".NewWordActivity"></activity>
     </application>
 
 </manifest>
