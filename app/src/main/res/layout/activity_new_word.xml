@@ -16,9 +16,24 @@
         android:layout_marginTop="16dp"
         android:textSize="18sp" />
 
+
+    <TextView
+        android:id="@+id/display_sort_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/display_apk_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APK"
+        android:textSize="24sp" />
+
     <Button
         android:id="@+id/button_save"
-        android:layout_width="match_parent"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:text="@string/button_save"

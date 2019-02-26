@@ -16,7 +16,7 @@ public interface apkDao {
     @Query("DELETE FROM apk_table")
     void deleteAll();
 
-    @Query("SELECT * from apk_table ORDER BY APK ASC")
+    @Query("SELECT * from apk_table ORDER BY name ASC")
     LiveData< List<apk>> getAllApks();
 
 }

@@ -33,7 +33,7 @@ public class apk {
         return this.sort;
     }
 
-    public double getValue(){
+    public double getApkValue(){
         return this.apkValue;
     }
 }

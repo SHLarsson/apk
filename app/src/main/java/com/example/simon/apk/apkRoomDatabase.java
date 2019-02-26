@@ -48,7 +48,7 @@ public abstract class apkRoomDatabase extends RoomDatabase {
         @Override
         protected Void doInBackground(final Void... params) {
             mDao.deleteAll();
-            apk word = new apk("wine""wine",10);
+            apk word = new apk("wine","wine",10);
             mDao.insert(word);
             apk word2= new apk("beer","wine",10);
             mDao.insert(word2);

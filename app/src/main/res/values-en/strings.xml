@@ -12,7 +12,17 @@
         <item>Drink</item>
     </string-array>
 
+    <string name="placeholder_price">Price</string>
+    <string name="placeholder_amount">Amount</string>
+    <string name="placeholder_alcohol">Alcohol</string>
+
+    <string name="calc_button">Calculate</string>
+
     <string name="next_button_text">Next</string>
     <string name="selected_sort">Sort</string>
+
+    <string name="hint_word">Name</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
 
 </resources>

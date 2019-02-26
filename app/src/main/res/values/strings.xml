@@ -15,7 +15,14 @@
     <string name="next_button_text">Nästa</string>
     <string name="selected_sort">Sort</string>
 
-    <string name="hint_word">Word...</string>
+    <string name="placeholder_price">Pris</string>
+    <string name="placeholder_amount">Mängd</string>
+    <string name="placeholder_alcohol">Alkohol</string>
+
+    <string name="calc_button">Räkna ut</string>
+
+
+    <string name="hint_word">Namn</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Word not saved because it is empty.</string>
 

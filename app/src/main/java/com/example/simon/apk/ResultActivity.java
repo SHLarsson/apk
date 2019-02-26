@@ -8,14 +8,19 @@ import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity {
 
+    public static final String  APK_RESULT = "com.example.apk.RESULT";
+    public static final String  ALCOHOL_SORT = "com.example.apk.SORT";
+    private String message;
+    private String sort;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(apkActivity.APK_RESULT);
-        String sort = intent.getStringExtra(apkActivity.ALCOHOL_SORT);
+        message = intent.getStringExtra(apkActivity.APK_RESULT);
+        sort = intent.getStringExtra(apkActivity.ALCOHOL_SORT);
 
         TextView displaySort = findViewById(R.id.display_sort);
         displaySort.setText("Sort: " + sort);
@@ -29,6 +34,9 @@ public class ResultActivity extends AppCompatActivity {
         startActivity(intent);
     }
     void save(View view){
-
+        Intent intent = new Intent(this, NewWordActivity.class);
+        intent.putExtra(APK_RESULT , message);
+        intent.putExtra(ALCOHOL_SORT , sort);
+        startActivity(intent);
     }
 }

@@ -20,7 +20,7 @@
         android:layout_width="183dp"
         android:layout_height="wrap_content"
 
-        android:hint="Price"
+        android:hint="@string/placeholder_price"
 
         android:inputType = "numberDecimal"
 
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
 
-        android:hint="Amount"
+        android:hint="@string/placeholder_amount"
 
         android:inputType = "numberDecimal"
 
@@ -48,7 +48,7 @@
         android:layout_width="183dp"
         android:layout_height="wrap_content"
 
-        android:hint="Alcohol"
+        android:hint="@string/placeholder_alcohol"
 
         android:inputType = "numberDecimal"
 
@@ -62,7 +62,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="105dp"
-        android:text="calculate"
+        android:text="@string/calc_button"
         android:onClick="changeView"
         />
 

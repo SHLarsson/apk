@@ -3,6 +3,7 @@ package com.example.simon.apk;
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
+import android.util.Log;
 
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class apkRepository {
     LiveData<List<apk>> getAllApks() {
         return mAllApks;
     }
+    //Log.d();
 
 
     public void insert (apk apk) {
